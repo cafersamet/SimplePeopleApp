@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Projects/KotlinProjects/ScorpApp/app/src/main/res/layout/activity_main.xml" value="0.17198581560283688" />
+        <entry key="..\:/Projects/KotlinProjects/ScorpApp/app/src/main/res/layout/fragment_person.xml" value="0.2" />
+        <entry key="..\:/Projects/KotlinProjects/ScorpApp/app/src/main/res/layout/no_data_view.xml" value="0.215625" />
+        <entry key="..\:/Projects/KotlinProjects/ScorpApp/app/src/main/res/layout/person_item.xml" value="0.2" />
+        <entry key="..\:/Projects/KotlinProjects/ScorpApp/app/src/main/res/layout/person_layout.xml" value="0.18297101449275363" />
       </map>
     </option>
   </component>
