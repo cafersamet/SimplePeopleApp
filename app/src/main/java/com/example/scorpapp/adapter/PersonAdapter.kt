@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.scorpapp.R
 import com.example.scorpapp.databinding.PersonItemBinding
 import com.example.scorpapp.source.Person
+import com.example.scorpapp.util.UniqueList
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -21,7 +22,7 @@ class PersonAdapter :
         setHasStableIds(true)
     }
 
-    private var people: MutableList<Person> = mutableListOf()
+    private var people = UniqueList<Person,Int>()
     private val adapterScope = CoroutineScope(Dispatchers.Default)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PersonViewHolder {

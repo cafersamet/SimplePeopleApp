@@ -2,12 +2,13 @@ package com.example.scorpapp.source
 
 import android.os.Handler
 import android.os.Looper
+import com.example.scorpapp.util.Unique
 import kotlin.collections.ArrayList
 import kotlin.math.min
 import kotlin.random.Random
 
 
-data class Person(val id: Int, val fullName: String)
+data class Person(override val id: Int, val fullName: String) : Unique<Int>
 
 data class FetchResponse(val people: List<Person>, val next: String?)
 
